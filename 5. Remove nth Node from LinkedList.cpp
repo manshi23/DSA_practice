@@ -1,10 +1,10 @@
 class Solution {
 public:
-    int length(ListNode*head){
+  int length(ListNode*head){
         ListNode*temp=head;
         int len=0;
         while(temp!=NULL){
-            len++;
+            len+=1;
             temp=temp->next;
         }
         return len;
