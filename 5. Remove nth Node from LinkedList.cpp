@@ -10,7 +10,7 @@ public:
         return len;
     }
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        if(n==0||head==NULL){
+        if(n==0 or head==NULL){
             return head;
         }
         int len=length(head);
